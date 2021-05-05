@@ -1,3 +1,9 @@
+/*this tells every element on the page to not have any margin or border unless we tell it to.*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     justify-content: space-between;
     flex-wrap: wrap;
@@ -12,14 +18,16 @@ header h1 {
     font-size: 50px;
     color: cadetblue;
     margin: 0;
+    display: inline;
 }
 
 header a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: cadetblue;
   }
 
 header nav {
+    float: right;
     margin: 7px 0;
   }
 
@@ -37,6 +45,11 @@ header nav ul li {
 }
 
 /*cool subtitle section*/
-#coolSubtitle {
+#banner {
     background-image: ;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgrey;
 }
