@@ -1,0 +1,42 @@
+header {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    align-items: flex-end;
+    position: relative;
+    background-position: 80%;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: cadetblue;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+
+header nav {
+    margin: 7px 0;
+  }
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+
+header nav ul li {
+    font-weight: bold;
+    font-size: 44px;
+    color: cadetblue;
+    margin: 0;
+}
+
+/*cool subtitle section*/
+#coolSubtitle {
+    background-image: ;
+}
