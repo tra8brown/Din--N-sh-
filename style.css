@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+/*body*/ 
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgrey;
+}
+
+/*header & nav*/
 header {
     justify-content: space-between;
     flex-wrap: wrap;
@@ -33,25 +40,43 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
     list-style: none;
   }
 
 header nav ul li {
     font-weight: bold;
-    font-size: 44px;
+    font-size: 30px;
     color: cadetblue;
-    margin: 0;
+    margin: 10;
+    justify-content: space-around;
 }
 
-/*cool subtitle section*/
-#banner {
-    background-image: ;
+/*cool subtitle section with image?*/
+.banner {
+    background-image: url(./assets/4_mile_falls.jpg);
+    
+    background-size: 900px 200px;
+    padding: 10px 20px 10px 20px;
+
 }
 
-body {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: lightgrey;
+.banner h2 {
+    /*fix text-align*/
+    text-align: right;
+    color: black;
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+/*about me section*/
+
+
+/*work info*/
+.work-info .images {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 /*footer*/
