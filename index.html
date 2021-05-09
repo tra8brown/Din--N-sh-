@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel = stylesheet href= "style.css">
     <title>Professional Portfolio</title>
 </head>
@@ -27,16 +28,26 @@
             </ul>
         </nav>
     </header>
+
 <!--BACKGROUND WITH "COOL SUBTITLE"-->
     <div class="banner">
         <h2>Diné Nishłį́</h2>
     </div>
 
+
+
+
 <!--ABOUT ME-->
     <section id = "about-me"> <!--this works with nav links DO NOT DELETE-->
-        <h2>ABOUT ME</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quaerat at doloribus nihil accusantium, dolores minima voluptate soluta dolorum? Natus facilis velit fuga expedita aliquam minima culpa vero, aperiam neque, molestias necessitatibus totam magnam quas. Nemo delectus adipisci deserunt corrupti officia magnam minima quae ullam, blanditiis tenetur enim. Officia ipsam ullam omnis at optio possimus id facilis inventore impedit error. Assumenda ratione quae eaque voluptatem exercitationem minima ea quis reiciendis.</p>
-        </section>
+    <h2>ABOUT ME</h2>
+    
+        <img class="image" src="./assets/family_AlbionBasion_Utah_2018 (2).jpg">
+        
+            <p class="paragraph"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quaerat at doloribus nihil accusantium, dolores minima voluptate soluta dolorum? Natus facilis velit fuga expedita aliquam minima culpa vero, aperiam neque, molestias necessitatibus totam magnam quas. Nemo delectus adipisci deserunt corrupti officia magnam minima quae ullam, blanditiis tenetur enim. Officia ipsam ullam omnis at optio possimus id facilis inventore impedit error. Assumenda ratione quae eaque voluptatem exercitationem minima ea quis reiciendis.</p>
+        
+    </section>
+
+
 
 <!--WORK INFO SECTION WITH PHOTOS-->
     <section id ="work-info"> <!--this works with nav links DO NOT DELETE-->
@@ -46,31 +57,40 @@
             <!--JOB 1-->
             <div class="big-image">
             <img src="./assets/Screenshot (1).png" alt="Run Buddy website">
-                <div>
+                <div class="image-text">
                     <p>Professional Photographer</p>
                 </div>
             </div>
             <!--JOB 2-->
-            <img src="./assets/Monticello_UT_2012.jpg" alt="Golden sunrise in small town Utah">
-                <div>
+            <div class="container">
+                <div class="row">
+            
+                <div class="col-6">
+                <img  src="./assets/Monticello_UT_2012.jpg" alt="Golden sunrise in small town Utah">
                     <p>Professional Photographer</p>
                 </div>
             <!--JOB 3-->
-            <img src="./assets/TroutLake_CO_2012.jpg" alt="small lake in the mountains of colorado">
-                <div>
+            
+                <div class="col-6">
+                    <img  src="./assets/TroutLake_CO_2012.jpg" alt="small lake in the mountains of colorado">
                     <p>Professional Photographer</p>
                 </div>
+                </div>
             <!--JOB 4-->
-            <img src="./assets/MonumentValley_Ut_2015.jpg" alt="reflection in water of monument valley, utah">
-                <div>
+            <div class="row">
+            
+                <div class="col-6">
+                    <img  src="./assets/MonumentValley_Ut_2015.jpg" alt="reflection in water of monument valley, utah">
                     <p>Professional Photographer</p>
                 </div>
             <!--JOB 5-->
-            <img src="./assets/BlackRock_HI_2019.jpg" alt="sun setting over black rock beach in Maui, Hawaii">
-                <div>
+            
+                <div class="col-6">
+                    <img  src="./assets/BlackRock_HI_2019.jpg" alt="sun setting over black rock beach in Maui, Hawaii">
                     <p>Professional Photographer</p>
                 </div>
-        
+            </div>
+        </div>   
         </section>    
         
 </body>

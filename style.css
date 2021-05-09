@@ -50,7 +50,7 @@ header nav ul li {
     font-weight: bold;
     font-size: 30px;
     color: cadetblue;
-    margin: 10;
+    margin-left: 15px;
     justify-content: space-around;
 }
 
@@ -75,20 +75,16 @@ header nav ul li {
 
 
 /*about me section*/
+.image,
+.paragraph {
+    
+}
 
 
 
 
 /*work info*/
-.big-image {
-}
 
-/*test used with .big-image position: relative*/
-image-text {
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-}
 
 
 
@@ -128,3 +124,5 @@ footer nav ul li {
     justify-content: space-around;
     display: inline;
 }
+
+/*Media Query*/ 
