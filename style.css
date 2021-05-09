@@ -1,18 +1,19 @@
-/*this tells every element on the page to not have any margin or border unless we tell it to.*/
-* {
-    margin: 0;
-    padding: 0;
-}
+/*             this tells every element on the page to not have any margin or border unless we tell it to. * {
+                margin: 0;
+                padding: 0;
+            }
+            /*body*/
 
-
-/*body*/ 
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: lightgrey;
+    height: 100vh;
+    width: 100vw;
 }
 
 
 /*header & nav*/
+
 header {
     justify-content: space-between;
     flex-wrap: wrap;
@@ -33,18 +34,18 @@ header h1 {
 header a {
     text-decoration: none;
     color: cadetblue;
-  }
+}
 
 header nav {
     float: right;
     margin: 7px 0;
-  }
+}
 
 header nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-  }
+}
 
 header nav ul li {
     font-weight: bold;
@@ -56,6 +57,7 @@ header nav ul li {
 
 
 /*cool subtitle section with image?*/
+
 .banner {
     background-image: url(./assets/4_mile_falls.jpg);
     background-size: 1024px 200px;
@@ -68,30 +70,37 @@ header nav ul li {
 }
 
 
-/* aligning about me, work info and contact me to the left?*/ 
+/* aligning about me, work info and contact me to the left?*/
+
 .paragraph {
-    text-align: justify; /*not working*/
+    text-align: justify;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 
 /*about me section*/
 
-    
-
-
-
-/*work info*/
-.container {
+#about-me .container {
+    display: flex;
     width: 100%;
-    height: 100%;
-    object-fit: contain;
-    border: black; 
 }
 
 
+/*work info*/
+
+.container {
+    width: 100%;
+    height: 100%;
+    border: black;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 /*footer*/
+
 footer {
     padding: 20px 35px;
     background-color: black;
@@ -112,7 +121,6 @@ footer nav {
     margin: 7px 0;
 }
 
-
 footer nav ul {
     display: flex;
     flex-direction: row;
@@ -128,18 +136,24 @@ footer nav ul li {
     display: inline;
 }
 
-/*Media Query*/ 
+
+/*Media Query*/
+
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
 @media screen and (max-width: 980px) {
+    /*work info*/
+    .container {
+        width: 100%;
+        height: 100%;
+        border: black;
+        display: flex;
+    }
+    .col-6 {
+        align-items: fit-content;
+        flex-basis: fit-content;
+    }
+}
 
-  
-
-
-    /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 768px) {
-
-  
-
-
-    /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
+*/
