@@ -1,1 +1,1 @@
-![Alt text]("./assets/PortfolioScreenShot.PNG" "Title")
+![Screenshot](./assets/PortfolioScreenShot.png)
