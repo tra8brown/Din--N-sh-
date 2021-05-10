@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="style.css">
     <title>Professional Portfolio</title>
 </head>
 
@@ -18,13 +19,13 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#about-me ">About Me</a>
+                    <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a href="#work-info ">Work</a>
+                    <a href="#work-info">Work</a>
                 </li>
                 <li>
-                    <a href="#contact-me ">Contact Me</a>
+                    <a href="#contact-me">Contact Me</a>
                 </li>
             </ul>
         </nav>
@@ -35,14 +36,11 @@
         <h2>Diné Nishłį́</h2>
     </div>
 
-
-
-
     <!--ABOUT ME-->
     <section id="about-me">
         <!--this works with nav links DO NOT DELETE-->
         <h2 class="paragraph ">ABOUT ME</h2>
-        <div class="container">
+        <div class="container" style="display: flex;">
             <img class="image " src="./assets/family_AlbionBasion_Utah_2018 (2).jpg ">
 
             <p class="paragraph "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quaerat at doloribus nihil accusantium, dolores minima voluptate soluta dolorum? Natus facilis velit fuga expedita aliquam minima culpa vero, aperiam neque, molestias necessitatibus
@@ -51,47 +49,46 @@
         </div>
     </section>
 
-
-
     <!--WORK IMAGE SECTION-->
 
-    <section id="work-info ">
+    <section id="work-info">
         <!--this works with nav links DO NOT DELETE-->
     </section>
     <h2>WORK INFO</h2>
+    <div class="big-image">
+        <a href="https://tra8brown.github.io/run-buddy "><img src="./assets/Screenshot (1).png " alt="Run Buddy website "></a>
+        <div class="image-text ">
+            <p>Run Buddy</p>
+        </div>
+    </div>
     <!--MAIN IMAGE 1-->
-    <section>
-        <!--JOB 1-->
-        <div class="big-image ">
-            <a href=#link-to-job><img src="./assets/Screenshot (1).png " alt="Run Buddy website "></a>
+    <section style="display: grid; grid-template-columns: 1fr 1fr; ">
+        <!--JOB 2-->
+        <div>
+            <a href=#link-to-job><img src="./assets//TroutLake_CO_2012.jpg " alt="Run Buddy website "></a>
             <div class="image-text ">
-                <p>Run Buddy</p>
+                <p>Professional Photographer</p>
             </div>
         </div>
-        <!--JOB 2-->
-        <div class="container ">
-            <div class="row ">
-                <div class="col-sm-6">
-                    <a href=#link-to-job><img src="./assets/Monticello_UT_2012.jpg " alt="Golden sunrise in small town Utah "></a>
-                    <p>Professional Photographer</p>
-                </div>
-                <!--JOB 3-->
-                <div class="col-sm-6">
-                    <a href=#link-to-job><img src="./assets/TroutLake_CO_2012.jpg " alt="small lake in the mountains of colorado "></a>
-                    <p>Professional Photographer</p>
-                </div>
+
+        <!--JOB 3-->
+        <div class="col-sm-6 ">
+            <a href=#link-to-job><img src="./assets/Monticello_UT_2012.jpg " alt="Golden sunrise in small town Utah "></a>
+            <p>Professional Photographer</p>
+        </div>
+
+        <!--JOB 4-->
+        <div>
+            <a href=#link-to-job><img src="./assets/MonumentValley_Ut_2015.jpg " alt="Run Buddy website "></a>
+            <div class="image-text ">
+                <p>Professional Photographer</p>
             </div>
-            <!--JOB 4-->
-            <div class="row ">
-                <div class="col-sm-6">
-                    <a href=#link-to-job><img src="./assets/MonumentValley_Ut_2015.jpg " alt="reflection in water of monument valley, utah "></a>
-                    <p>Professional Photographer</p>
-                </div>
-                <!--JOB 5-->
-                <div class="col-sm-6">
-                    <a href=#link-to-job><img src="./assets/BlackRock_HI_2019.jpg " alt="sun setting over black rock beach in Maui, Hawaii "></a>
-                    <p>Professional Photographer</p>
-                </div>
+        </div>
+        <!--JOB 5-->
+        <div>
+            <a href=#link-to-job><img src="./assets/BlackRock_HI_2019.jpg " alt="Run Buddy website "></a>
+            <div class="image-text ">
+                <p>Professional Photographer</p>
             </div>
         </div>
     </section>
@@ -106,9 +103,10 @@
     <h2 class="left-align ">Contact Me</h2>
     <nav>
         <ul>
-            <li><strong>555.867.5309
-                    </li>
-                   <li><strong>tracee@gmail.com
+            <li>
+                <a<strong>555.867.5309
+            </li>
+            <li><strong>tracee@gmail.com
                     </li>
                     <li><strong>https://github.com/tra8brown
                     </li>

@@ -1,49 +1,132 @@
-            * {
-                margin: 0;
-                padding: 0;
-            }
-            
-            body {
-                /*font-family: 'Times New Roman', Times, serif;
-            '*/
-                background-color: lightgrey;
-                height: 100vh;
-                width: 100vw;
-            }
-            
-            header {
-                background-color: black;
-                display: flex;
-                width: 100vw;
-                align-items: center;
-            }
-            
-            header h1 {
-                font-weight: bold;
-                font-size: 50px;
-                color: cadetblue;
-            }
-            
-            header a {
-                text-decoration: none;
-                color: cadetblue;
-            }
-            
-            header nav {
-                margin-left: auto;
-                margin: 7px 0;
-            }
-            
-            header nav ul {
-                display: flex;
-                flex-direction: row;
-                list-style: none;
-            }
-            
-            header nav ul li {
-                font-weight: bold;
-                font-size: 30px;
-                color: cadetblue;
-                margin-left: 15px;
-                justify-content: space-around;
-            }
+                        /*this tells every element on the page to not have any margin or border unless we tell it to. */
+                
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                /*body*/
+                
+                body {
+                    font-family: 'Times New Roman', Times, serif;
+                    background-color: lightgrey;
+                    height: 100vh;
+                    width: 100vw;
+                }
+                /*header & nav*/
+                
+                header {
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    background-color: black;
+                    align-items: flex-end;
+                    position: relative;
+                    background-position: 80%;
+                }
+                
+                header h1 {
+                    font-weight: bold;
+                    font-size: 50px;
+                    color: cadetblue;
+                    margin: 0;
+                    display: inline;
+                }
+                
+                header a {
+                    text-decoration: none;
+                    color: cadetblue;
+                }
+                
+                header nav {
+                    float: right;
+                    margin: 7px 0;
+                }
+                
+                header nav ul {
+                    display: flex;
+                    flex-direction: row;
+                    list-style: none;
+                }
+                
+                header nav ul li {
+                    font-weight: bold;
+                    font-size: 30px;
+                    color: cadetblue;
+                    margin-left: 20px;
+                    justify-content: space-around;
+                }
+                /*cool subtitle section with image?*/
+                
+                .banner {
+                    background-image: url(./assets/4_mile_falls.jpg);
+                    background-size: 1024px 200px;
+                }
+                
+                .banner h2 {
+                    text-align: right;
+                    color: black;
+                    opacity: 0.5;
+                }
+                /* aligning about me, work info and contact me to the left?*/
+                
+                .paragraph {
+                    padding: 20px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 20px;
+                }
+                /*about me section*/
+                
+                #about-me .container {
+                    display: flex;
+                    width: 100%;
+                }
+                /*work info*/
+                
+                .container {
+                    width: 100%;
+                    height: 100%;
+                    border: black;
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                /*footer*/
+                
+                footer {
+                    padding: 20px 35px;
+                    background-color: black;
+                    text-decoration: none;
+                    color: cadetblue;
+                }
+                
+                footer h2 {
+                    font-weight: bold;
+                    font-size: 50px;
+                    color: cadetblue;
+                    display: inline;
+                    margin: 0;
+                }
+                
+                footer nav {
+                    float: right;
+                    margin: 7px 0;
+                }
+                
+                footer nav ul {
+                    display: flex;
+                    flex-direction: row;
+                    list-style: none;
+                }
+                
+                footer nav ul li {
+                    font-weight: bold;
+                    font-size: 30px;
+                    color: cadetblue;
+                    margin-left: 130px;
+                    justify-content: space-around;
+                    display: inline;
+                }
+                /*Media Query*/
+                /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+                
+                @media screen and (max-width: 980px) {
+                    .body {
+                        font: red;
