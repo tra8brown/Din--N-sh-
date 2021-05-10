@@ -1,1 +1,1 @@
-![Screenshot](./assets/PortfolioScreenShot.png)
+![Screenshot](screenshot.png)
