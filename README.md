@@ -1,13 +1,13 @@
-#Dine Nishli
-##Professional Portfolio created by Tracee Brown for the purpose of future job employment
-*Updated professional portfolio with one screenshot image.
-*Created an HTML and used some CSS and Media Query.
-*Added ways to contact me.
-_https://github.com/tra8brown/Dine-Nishli
-_https://tra8brown.github.io/Dine-Nishli/
-![Screenshot](Screenshot37.png)
+# Dine Nishli
+## Professional Portfolio created by Tracee Brown for the purpose of future job employment
+* Updated professional portfolio with one screenshot image.
+* Created an HTML and used some CSS and Media Query.
+* Added ways to contact me.
+_https://github.com/tra8brown/Dine-Nishli_
+_https://tra8brown.github.io/Dine-Nishli/_
+![Screenshot](./assets/Screenshot37.png)
 
 # 6/13/21 updated with our newest group project - Quote Generator
 Website can be found at :https://asa-grace.github.io/Quote-Generator/
 GitHub: https://github.com/asa-grace/Quote-Generator.git
-![screenshot](dropQuote.png)
+![screenshot](./assets/dropQuote.png)
