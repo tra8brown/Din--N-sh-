@@ -1,152 +1,206 @@
-                                        /*this tells every element on the page to not have any margin or border unless we tell it to. */
-                                        
-                                        * {
-                                            margin: 0;
-                                            padding: 0;
-                                        }
-                                        /*body*/
-                                        
-                                        body {
-                                            font-family: 'Times New Roman', Times, serif;
-                                            background-color: lightgrey;
-                                            height: 100vh;
-                                            width: 100vw;
-                                        }
-                                        /*header & nav*/
-                                        
-                                        header {
-                                            justify-content: space-between;
-                                            flex-wrap: wrap;
-                                            background-color: black;
-                                            align-items: flex-end;
-                                            position: relative;
-                                            background-position: 80%;
-                                        }
-                                        
-                                        header h1 {
-                                            font-weight: bold;
-                                            font-size: 50px;
-                                            color: cadetblue;
-                                            margin: 0;
-                                            display: inline;
-                                        }
-                                        
-                                        header a {
-                                            text-decoration: none;
-                                            color: cadetblue;
-                                        }
-                                        
-                                        header nav {
-                                            float: right;
-                                            margin: 7px 0;
-                                        }
-                                        
-                                        header nav ul {
-                                            display: flex;
-                                            flex-direction: row;
-                                            list-style: none;
-                                        }
-                                        
-                                        header nav ul li {
-                                            font-weight: bold;
-                                            font-size: 30px;
-                                            color: cadetblue;
-                                            margin-left: 20px;
-                                            justify-content: space-around;
-                                        }
-                                        /*cool subtitle section with image?*/
-                                        
-                                        .banner {
-                                            background-image: url(./assets/4_mile_falls.jpg);
-                                            background-size: 1024px 200px;
-                                        }
-                                        
-                                        .banner h2 {
-                                            text-align: right;
-                                            color: black;
-                                            opacity: 0.5;
-                                        }
-                                        /* aligning about me, work info and contact me to the left?*/
-                                        
-                                        .paragraph {
-                                            padding: 20px;
-                                            font-family: Verdana, Geneva, Tahoma, sans-serif;
-                                            font-size: 20px;
-                                        }
-                                        /*about me section*/
-                                        
-                                        #about-me .container {
-                                            display: flex;
-                                            width: 100%;
-                                        }
-                                        /*work info*/
-                                        
-                                        .container {
-                                            width: 100%;
-                                            height: 100%;
-                                            border: black;
-                                            display: flex;
-                                            justify-content: space-evenly;
-                                        }
-                                        /*footer*/
-                                        
-                                        footer {
-                                            padding: 20px 35px;
-                                            background-color: black;
-                                            text-decoration: none;
-                                            color: cadetblue;
-                                        }
-                                        
-                                        footer h2 {
-                                            font-weight: bold;
-                                            font-size: 50px;
-                                            color: cadetblue;
-                                            display: inline;
-                                            margin: 0;
-                                        }
-                                        
-                                        footer nav {
-                                            float: right;
-                                            margin: 7px 0;
-                                        }
-                                        
-                                        footer nav ul {
-                                            display: flex;
-                                            flex-direction: row;
-                                            list-style: none;
-                                        }
-                                        
-                                        footer nav ul li {
-                                            font-weight: bold;
-                                            font-size: 30px;
-                                            color: cadetblue;
-                                            margin-left: 130px;
-                                            justify-content: space-around;
-                                            display: inline;
-                                        }
-                                        /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-                                        
-                                        @media screen and (max-width: 980px) {
-                                            header {
-                                                padding-bottom: 0;
-                                                justify-content: center;
-                                                position: relative;
-                                            }
-                                            header h1 {
-                                                width: 100%;
-                                                text-align: center;
-                                            }
-                                            header nav ul {
-                                                margin-top: 20px;
-                                                width: 100%;
-                                                justify-content: center;
-                                            }
-                                            header nav ul li a {
-                                                font-size: 20px;
-                                            }
-                                            footer h2,
-                                            footer div {
-                                                text-align: center;
-                                                width: 100%;
-                                            }
-                                        }
+/*this tells every element on the page to not have any margin or border unless we tell it to. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*body*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(./assets/mohammed-alamri-3e2my9snPbw-unsplash.jpg);
+    background-size: 1500px;
+}
+
+p {
+    font: white;
+}
+
+
+/*header & nav*/
+
+header {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    align-items: flex-end;
+    position: relative;
+    background-position: 80%;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: cadetblue;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header nav ul li {
+    font-weight: bold;
+    font-size: 30px;
+    color: cadetblue;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+
+
+/*cool subtitle section with image?*/
+
+.banner {
+    background-image: url(./assets/4_mile_falls.jpg);
+    background-size: 1024px 200px;
+}
+
+.banner h2 {
+    text-align: right;
+    color: black;
+    opacity: 0.5;
+}
+
+
+/* aligning about me, work info and contact me to the left?*/
+
+.paragraph {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: cadetblue;
+    background: rgba(50, 0, 50, .3);
+}
+
+.paragraph:hover {
+    background: rgba(50, 0, 50, .75);
+}
+
+
+/*about me section*/
+
+#about-me .container {
+    display: flex;
+    width: 100%;
+}
+
+
+/*work info*/
+
+.big-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 30px;
+    /* position: absolute; */
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: cyan;
+}
+
+.work-info {
+    color: white;
+    font-size: 50px;
+}
+
+
+}
+.container {
+    width: 100%;
+    height: 100%;
+    border: black;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.jobs {
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+/*footer*/
+footer {
+    padding: 20px 35px;
+    background-color: black;
+    text-decoration: none;
+    color: cadetblue;
+}
+footer h2 {
+    font-weight: bold;
+    font-size: 50px;
+    color: cadetblue;
+    display: inline;
+    margin: 0;
+}
+footer nav {
+    float: right;
+    margin: 7px 0;
+}
+footer nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+footer nav ul li {
+    font-weight: bold;
+    font-size: 30px;
+    color: cadetblue;
+    margin-left: 130px;
+    justify-content: space-around;
+    display: inline;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+    }
+    
+    footer h2,
+    footer div {
+        text-align: center;
+        width: 100%;
+    }
+}
