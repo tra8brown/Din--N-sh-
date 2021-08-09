@@ -150,10 +150,11 @@ header nav ul li {
 /*footer*/
 
 footer {
-    padding: 20px 35px;
+    padding: 35px 35px;
     background-color: black;
     text-decoration: none;
     color: cadetblue;
+    margin-bottom: 0px;
 }
 
 footer h2 {
@@ -166,7 +167,7 @@ footer h2 {
 
 footer nav {
     float: right;
-    margin: 7px 0;
+    margin: 7px 50px;
 }
 
 footer nav ul {
