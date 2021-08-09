@@ -15,4 +15,4 @@ GitHub: https://github.com/asa-grace/Quote-Generator.git
 # 8/18/21 updated with our newest group project - Ramble-On
 website can be found at https://rocky-bayou-69146.herokuapp.com/
 GitHub: https://github.com/asa-grace/ramble-on
-![screenshot](./assets/Screenshot(53).png)
+![screenshot](./assets/Ramble-On.png)
