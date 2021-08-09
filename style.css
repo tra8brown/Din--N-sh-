@@ -111,7 +111,7 @@ header nav ul li {
 .image-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-    color: white;
+    color: cadetblue;
     margin: 30px;
     /* position: absolute; */
     display: inline-block;
@@ -119,6 +119,10 @@ header nav ul li {
     border: 1px solid #000;
     text-align: center;
     background-color: cyan;
+}
+
+.image-text:hover {
+    background: rgba(50, 0, 50, .75);
 }
 
 .work-info {
